@@ -1,0 +1,180 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* -------------------------------------------------- */
+/* -----------------Wrapper Header------------------- */
+
+.wrapper {
+    overflow: hidden;
+}
+
+.header {
+    line-height: 18px;
+    font-size: 14px;
+    letter-spacing: 1.96px;
+    height: 870px;
+}
+/* -------------------------------------------------- */
+/*---------------------NAV MENU-------------------*/
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 61px;
+    text-transform: uppercase;
+}
+
+.nav__logo {
+    margin-left: 24px;
+}
+
+.nav__items #startdesign{
+    border-bottom: 1px solid #011F3A;
+}
+
+.nav__items img{
+    margin-right: 13.47px;
+}
+
+.nav__link {
+    color: #011F3A;
+}
+
+.nav__link:not(:last-child){
+    margin-right: 25px;
+}
+
+.nav__cart a{
+    margin-right: 25px;
+}
+
+.nav__cart img{
+    vertical-align: middle;
+}
+
+/*---------------------NAV MENU END-------------------*/
+/* -------------------------------------------------- */
+
+/* ------------------bgimage------------------------- */
+
+
+/* -----------------------header body------------------------- */
+
+.header__body {
+    position: relative;
+}
+
+.header__bg img {
+    background-image: url("../images/headerbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 740px;
+    position: absolute;
+}
+
+.header__box {
+    position: absolute;
+    top: 148px;
+    left: 936px;
+}
+
+
+
+/* -------------------------------------------------- */
+
+/* ----------------------container------------------- */
+
+.container {
+    width: 1200px;
+    margin: 0px 120px;
+}
+
+/* -------------------------------------------------- */
+
+/* -----------------------header body content------------------------- */
+
+.content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content__title {
+    margin-top: 165px;
+    width: 518px;
+    font-size: 48px;
+    line-height: 56.25px;
+    margin-bottom: 33px;
+}
+
+.content__text {
+    width: max-content;
+    font-size: 15px;
+    line-height: 24px;
+    color: #011F3A;
+    margin-bottom: 14px;
+}
+.content__button {
+    width: max-content;
+}
+
+.content__button a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1.96 px;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding: 19px 29px;
+    background-color: #3D5675;
+    border-radius: 44px;
+
+}
+
+.content__box {
+
+}
+
+
+
+/* -------------------------------------------------- */
